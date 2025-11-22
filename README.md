@@ -93,7 +93,7 @@ once we have added support for the html output format, our code will look someth
 And once we have added support for other play types, our code will look something like below
 (omitting irrelevant classes; exact variables and methods may vary):
 
-![Code with Other Plays Feature added UML Class Diagram](images/withPastoralAndHistorical.png)
+![Code with Other Plays Feature added UML Class Diagram](cvimages/withPastoralAndHistorical.png)
 
 Our task is to transform our starter code so that it begins to resemble the fully refactored code.
 We'll do this through a sequence of refactoring steps.
@@ -178,7 +178,7 @@ Hover — don't click — and a popup will appear mentioning what the problem is
 
 > The project stores information about CheckStyle in `.idea/checkstyle-idea.xml`.
 
-- [ ] **For each Java source file in `src/main/java/`, fix all CheckStyle issues that are detected.**
+- [x] **For each Java source file in `src/main/java/`, fix all CheckStyle issues that are detected.**
   You should either see the CheckStyle Tool Window icon (it looks like a pencil) on the left of IntelliJ or
   you may need to go to `View -> Tool Windows -> CheckStyle` to open the CheckStyle Tool Window.
   The following provides more about this step.
